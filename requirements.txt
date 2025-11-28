@@ -1,0 +1,15 @@
+# Python dependencies for Zoom Lens Calibration Stability Analysis
+# Install with: pip install -r requirements.txt
+
+# Core libraries
+numpy>=1.21.0
+
+# OpenCV with contrib modules (required for ArUco/ChArUco)
+# Note: opencv-contrib-python includes extra modules not in opencv-python
+opencv-contrib-python>=4.8.0
+
+# Basler camera SDK Python bindings
+pypylon>=2.0.0
+
+# Monitor detection (optional, for multi-monitor support)
+screeninfo>=0.8.0
